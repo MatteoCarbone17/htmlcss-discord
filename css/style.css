@@ -251,15 +251,12 @@ footer hr{
 
 footer section.footer-bottom{
     height: 100px;
-    background-color: #7fffd4;
     justify-content: space-between;
 }
 
-footer .footer-logo,
-footer .footer-button{
-    background-color: rgb(246, 136, 154);
-    padding: .5rem;
-    font-size: 1.25rem;
+footer .footer-logo{
+    padding: 5rem;
+    font-size: 1rem;
 }
 
 .ul-font{
@@ -291,3 +288,15 @@ aside#aside-font>p{
     padding-top: 1rem;
 }
 
+.footer-logo{
+    background-image: url(../img/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-button{
+    border-radius: 2rem;
+    padding: 0.7rem;
+    background-color: rgb(142, 161, 225);
+    color: white;
+}
