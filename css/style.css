@@ -88,7 +88,7 @@
 
 
 header{
-    background-color: rgb(49, 97, 224);
+    background-color: rgb(37, 94, 233);
     align-items: center;
     flex-direction: column;
 }
@@ -123,7 +123,7 @@ nav div.login{
 
 nav ul.main-menu{
     flex-basis: 80%;
-    background-color: rgb(49, 97, 224);
+    background-color: rgb(37, 94, 233);
     padding:.75rem;
     text-align: center;
 }
@@ -140,7 +140,8 @@ h1{
 
 div#jumbotron{
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 450px;
     width: 100%;
@@ -202,6 +203,7 @@ div.big-content{
     width: 100%;
     background-image: url(../img/item4-big.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 h3{
@@ -299,4 +301,10 @@ aside#aside-font>p{
     padding: 0.7rem;
     background-color: rgb(142, 161, 225);
     color: white;
+}
+
+.fa-brands{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
 }
