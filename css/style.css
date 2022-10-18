@@ -174,7 +174,34 @@ div#jumbotron{
 div#jumbotron .jumbo-content{
     width: 45%;
     height: 350px;
-    background-color: #ed81ed;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;  
 }
 
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+#p-high{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+
+.but-down,
+.but-open{
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.but-open{
+    background-color: black;
+    color: white;
+
+}
 
