@@ -48,14 +48,36 @@
 
 .big-col{
     width: 65%;
-    background-color: #1e8ffe;
+    background-position: 100%;
+    background-repeat: no-repeat;
 
 }
 
 .small-col{
     width: 35%;
-    background-color: #febfca;
-}
+    text-align: left;
+    }
+    .main-h2{
+        font-size: 2.7rem;
+        margin-top: 2.5rem;
+    }
+
+    .main-p{
+        margin-top: .7rem;
+        font-size: 1.2rem;
+    }
+
+    #frog-img{
+        background-image: url(../img/item1.svg);
+    }
+
+    #wizard-img{
+        background-image: url(../img/item2.svg);
+    }
+
+    #alien-img{
+        background-image: url(../img/item3.svg);
+    }
 
 .bg-grey{
     background-color: #d2d2d2;
@@ -184,6 +206,8 @@ h1{
     margin-bottom: 2rem;
     color: white;
 }
+
+
 #p-high{
     text-align: center;
     font-size: 1.3rem;
