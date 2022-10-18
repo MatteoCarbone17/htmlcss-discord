@@ -54,32 +54,33 @@
 }
 
 .small-col{
-    width: 35%;
-    text-align: left;
-    }
-    .main-h2{
-        font-size: 2.7rem;
-        margin-top: 2.5rem;
-    }
+   width: 35%;
+   text-align: left;
+}
+    
+.main-h2{
+    font-size: 2.7rem;
+    margin-top: 2.5rem;
+}
 
-    .main-p{
-        margin-top: 1rem;
-        font-size: 1.2rem;
-    }
+.main-p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
 
-    #frog-img{
-        margin-left: .7rem;
-        background-image: url(../img/item1.svg);
-    }
+#frog-img{
+    margin-left: .7rem;
+     background-image: url(../img/item1.svg);
+}
 
-    #wizard-img{
-        margin-bottom: .5rem;
-        background-image: url(../img/item2.svg);
-    }
+#wizard-img{
+    margin-bottom: .5rem;
+    background-image: url(../img/item2.svg);
+}
 
-    #alien-img{
-        background-image: url(../img/item3.svg);
-    }
+#alien-img{
+    background-image: url(../img/item3.svg);
+}
 
 .bg-grey{
     background-color: #d2d2d2;
@@ -131,6 +132,51 @@ nav ul.main-menu li{
     display: inline;
 }
 
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+div#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+div#jumbotron .jumbo-content{
+    width: 45%;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;  
+}
+
+
+
+#p-high{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+
+.but-down,
+.but-open{
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.but-open{
+    background-color: black;
+    color: white;
+
+}
+
 
 div.big-content{
     height: 800px;
@@ -180,26 +226,23 @@ footer{
 
 footer section.footer-top{
     height: 500px;
-    background-color: #7fffd4;
 }
 
 footer section.footer-top aside{
     width: 30%;
     height: 100%;
-    background-color: #f08080;
+    
 
 }
 
 footer section.footer-top nav{
     width: 70%;
     height: 100%;
-    background-color: #20b2aa;
 }
 
 footer .footer-top nav ul{
     width: 25%;
     height: 100%;
-    border: 2px dashed white;
 }
 
 footer hr{
@@ -219,49 +262,32 @@ footer .footer-button{
     font-size: 1.25rem;
 }
 
-
-
-div#jumbotron{
-    background-image: url(../img/jumbo.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 450px;
-    width: 100%;
-}
-
-div#jumbotron .jumbo-content{
-    width: 45%;
-    height: 350px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;  
-}
-
-h1{
-    font-size: 3rem;
-    margin-bottom: 2rem;
+.ul-font{
+    list-style-type: none;
+    font-size: 1rem;
+    padding-left: .7rem;
     color: white;
 }
 
-
-#p-high{
-    text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-    color: white;
-
+ul.ul-font>li{
+    margin-top: 1rem;
 }
 
-.but-down,
-.but-open{
-    border-radius: 2rem;
-    border: none;
-    font-size: 1.4rem;
-    padding: 1rem;
+.blue-li{
+    color: rgb(78, 93, 139);
 }
-.but-open{
-    background-color: black;
-    color: white;
 
+#aside-font{
+    color: white;
+    padding-top: 2rem;
+}
+aside#aside-font>h4{
+    font-size: 1.8rem;
+    text-align: left;
+    color: rgb(78, 93, 139);
+}
+
+aside#aside-font>p{
+    padding-top: 1rem;
 }
 
